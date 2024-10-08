@@ -25,6 +25,7 @@ namespace CollegeApp.Controllers
             _myLogger.LogError("log message to Error ");
             _myLogger.LogCritical("log message to Critical ");
            
+           
             return Ok();
         }
     }
